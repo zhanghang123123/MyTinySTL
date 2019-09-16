@@ -41,7 +41,8 @@ namespace mystl
 template <class T>
 class vector
 {
-  static_assert(!std::is_same<bool, T>::value, "vector<bool> is abandoned in mystl");
+  static_assert(!std::is_same<bool, T>::value, "vector<bool> is abandoned in mystl"); 
+  //static_assert这个关键字，用来做编译期间的断言，因此叫做静态断言。
 public:
   // vector 的嵌套型别定义
   typedef mystl::allocator<T>                      allocator_type;
