@@ -5,7 +5,7 @@
 // vector : 向量
 //我修改了这里
 //wo erci  xiugai zheli --taishiji（在此 修改）
-//di 3 ci xiugai
+//di 3 ci xiugai (------------------------------)
 
 // notes:
 //
